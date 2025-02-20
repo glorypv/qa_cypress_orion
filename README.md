@@ -30,3 +30,8 @@ npx cypress run --spec cypress/e2e/nombre-de-la-prueba.cy.ts
 ## 📌 **Tecnologías Utilizadas**
 Cypress - Framework de pruebas
 TypeScript - Lenguaje tipado
+
+## 📌 **Evidencia de Pruebas**
+
+Los videos de ejecución se encuentran en la carpeta cypress/videos.
+
