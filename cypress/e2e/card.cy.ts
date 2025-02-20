@@ -18,7 +18,7 @@ describe("Agregar Productos al Carrito desde el Menú", () => {
 
     const products = [
       { url: "https://dev.market.orion.global/es/subscription/660b7d867d0453f28974f283/", name: "" },
-     // { url: "https://dev.market.orion.global/es/subscription/65612580204e858bcdf3daff/", name: "" }
+      { url: "https://dev.market.orion.global/es/subscription/65612580204e858bcdf3daff/", name: "" }
     ];
 
     products.forEach((product) => {
@@ -28,7 +28,7 @@ describe("Agregar Productos al Carrito desde el Menú", () => {
       ProductPage.enterQuantity("1");
       ProductPage.selectRadioOption();
       ProductPage.clickAddToCartButton();
-      // ProductPage.clickContinueShopping();
+       ProductPage.clickContinueShopping();
     });
 
     CartPage.visit();
