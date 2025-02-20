@@ -1,0 +1,16 @@
+{
+  "name": "qa_cypress_home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gloria Peralta",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.0.3",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^5.7.3"
+  }
+}
